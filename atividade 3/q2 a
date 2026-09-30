@@ -1,0 +1,1 @@
+Sim. Com as configurações estritas padrão do TypeScript ativadas (strictPropertyInitialization), o código não compilará porque o atributo quantReservas não foi inicializado na sua declaração nem atribuído em um construtor, gerando um erro informando que a propriedade não foi definitivamente atribuída.

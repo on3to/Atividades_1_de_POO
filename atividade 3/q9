@@ -1,0 +1,2 @@
+A abordagem da questão 8 (retornar verdadeiro ou falso) é a mais correta.
+Justificativa: Se a gente só ignorar a ação de sacar quando não tem saldo (como a questão 10 sugere), o programa não tem como saber se o saque deu certo ou não. É tipo você tentar tirar dinheiro no caixa eletrônico, a máquina não te dar o dinheiro e também não mostrar nenhuma mensagem de erro na tela. Quando a gente retorna true ou false, o programa sabe se a operação funcionou e pode usar essa resposta para mostrar um aviso na tela para o usuário, tipo "Saque realizado" ou "Saldo insuficiente!".
